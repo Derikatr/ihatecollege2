@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHA Hash Lookup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        input[type="text"] {
+            padding: 5px;
+            font-size: 16px;
+            width: 300px;
+        }
+        input[type="submit"] {
+            padding: 5px 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>SHA</h1>
+    <form action="sha.php" method="post">
+        <label for="shaHash">Enter hash:</label><br><br>
+        <input type="text" id="shaHash" name="shaHash" required><br><br>
+        <input type="submit" value="search">
+    </form>
+</body>
+</html>
